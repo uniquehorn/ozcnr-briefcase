@@ -1,0 +1,5 @@
+C:/Users/Caner/source/repos/uniquehorn/ozcnr-briefcase/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/Caner/source/repos/uniquehorn/ozcnr-briefcase/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/Users/Caner/source/repos/uniquehorn/ozcnr-briefcase/out/build/x64-Debug (default)/EvrakCantam/CMakeFiles/EvrakCantam.dir
+C:/Users/Caner/source/repos/uniquehorn/ozcnr-briefcase/out/build/x64-Debug (default)/EvrakCantam/CMakeFiles/edit_cache.dir
+C:/Users/Caner/source/repos/uniquehorn/ozcnr-briefcase/out/build/x64-Debug (default)/EvrakCantam/CMakeFiles/rebuild_cache.dir
