@@ -5,6 +5,7 @@
 #include <filesystem>
 #include <ctime>
 #include <chrono>
+#include <vector>
 
 namespace fs = std::filesystem;
 
@@ -13,8 +14,13 @@ using namespace std;
 // Settings
 const string AYARDOSYA = "";
 
-string yerelYol = "C:\\Users\\Caner\\Desktop\\testDir1\\";
-string seyyarYol = "C:\\Users\\Caner\\Desktop\\testDir2\\";
+//string yerelYol = "C:\\Users\\Caner\\Desktop\\testDir1\\";
+//string seyyarYol = "C:\\Users\\Caner\\Desktop\\testDir2\\";
+
+string yerelYol = "/home/caner/test/testdir1";
+string seyyarYol = "/home/caner/test/testdir2";
+
+const string settingsPath="EvrakCantam.settings";
 
 struct dosya {
 	string yol;
@@ -56,6 +62,7 @@ void yerelKlasorOku()
 	int i = 0;
 	for (const auto& rawYerelDosyalar : fs::recursive_directory_iterator(yerelYol))
 	{
+		if(fs::is_directory(rawYerelDosyalar.path())) continue;
 		yerelDosyalar.push_back(dosya());
 		yerelDosyalar[i].yol = rawYerelDosyalar.path().string();
 		yerelDosyalar[i].boyut = fs::file_size(rawYerelDosyalar.path());
