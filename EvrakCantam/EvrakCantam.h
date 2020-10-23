@@ -8,5 +8,7 @@
 // Interface
 bool ayarlariYukle();
 void yerelKlasorOku();
+void portDirScan();
+void scanMove();
 
 // TODO: Reference additional headers your program requires here.
